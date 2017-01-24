@@ -1,0 +1,12 @@
+spring:
+  mvc:
+    view:
+      prefix: /
+      suffix: .html
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+  thymeleaf:
+    prefix: file:static/templates/
+    cache: false
